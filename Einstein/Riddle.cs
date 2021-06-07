@@ -23,7 +23,7 @@ namespace EinsteinsRiddle
         static string nationality = "\nReply with the appropriate number for his Nationality.\n"
             + " 1: Brit \n 2. Dane \n 3. German \n 4. Norwegian \n 5. Swede";
 
-        static string drinks = "\nReply with the appropriate number for what he drinks.\n"
+        static string drink = "\nReply with the appropriate number for what he drinks.\n"
             + " 1: Beer \n 2. Coffee \n 3. Milk \n 4. Tea \n 5. Water";
 
         static string cigarettes = "\nReply with the appropriate number for the cigarettes he smokes.\n"
@@ -47,7 +47,7 @@ namespace EinsteinsRiddle
             Console.WriteLine(Algorithm.IsCigarreteCorrect(answer, Cigarette.Blends));
             Console.WriteLine();
             Console.WriteLine();
-            Console.WriteLine("The owner of the Green house drinks Coffee. " + nationality);
+            Console.WriteLine("The owner of the Green house drinks Coffee. " + drink);
             answer = int.Parse(Console.ReadLine());
             Console.WriteLine(Algorithm.IsNationalityCorrect(answer, Nationality.German));
             Console.WriteLine();
